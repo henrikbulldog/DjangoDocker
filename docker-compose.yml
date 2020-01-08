@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
   web:
-    container_name: django
+    container_name: djangodocker
     build: .
     ports:
       - "8080:8080"
